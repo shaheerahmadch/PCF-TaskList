@@ -2,6 +2,8 @@
 
 A custom PowerApps Component Framework (PCF) control developed by **Shaheer Ahmad**.
 
+![TaskList Preview](Assets/Preview.png)
+
 ## Description
 
 The **TaskList** component provides a customizable list interface for managing tasks within your Power Apps.
@@ -14,9 +16,34 @@ The **TaskList** component provides a customizable list interface for managing t
 
 ## Installation
 
-1.  **Download**: Get the latest solution file from the [Releases](https://github.com/shaheerahmadch/Canvasify-Components/releases) page (if available) or build from source.
-2.  **Import**: Import the solution into your Power Apps environment.
-3.  **Add to App**: Open your Power App, go to the **Insert** menu, find **Code Components**, and select **TaskList**.
+1.  **Download Solution**:
+    -   Download the managed solution file directly from this repository: [PCFTaskList_1_0_0_1_managed.zip](Solutions/PCFTaskList_1_0_0_1_managed.zip)
+
+2.  **Import into Power Apps Environment**:
+    -   Go to the [Power Apps Maker Portal](https://make.powerapps.com/).
+    -   Select the correct **Environment** from the top right corner.
+    -   Navigate to **Solutions** in the left sidebar.
+    -   Click **Import solution** in the top menu.
+    -   Browse and select the downloaded `PCFTaskList_1_0_0_1_managed.zip` file.
+    -   Click **Next** and follow the prompts to complete the import.
+
+3.  **Enable PCF for Canvas Apps**:
+    -   *Note: This step is required for the "Code" tab to appear in the "Import components" dialog.*
+    -   Go to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/).
+    -   Select your **Environment**.
+    -   Navigate to **Settings** > **Product** > **Features**.
+    -   Toggle **On** the setting **"Power Apps component framework for canvas apps"**.
+    -   Save the changes.
+
+4.  **Add to Canvas App**:
+    -   Open your Canvas App in **Edit** mode.
+    -   In the left sidebar, click on the **Insert** (+) icon.
+    -   Click on the **Get more components** button at the bottom of the pane.
+    -   In the "Import components" dialog, select the **Code** tab.
+    -   Search for or scroll to find the **TaskList** component.
+    -   Select it and click **Import**.
+    -   Once imported, you will find **TaskList** under the **Code components** section in the Insert pane.
+    -   Drag and drop it onto your screen.
 
 ## Usage
 
